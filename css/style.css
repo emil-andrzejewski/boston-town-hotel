@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  overflow: auto;
+}
+.bg-light {
+  background-color: white;
+  color: black;
+}
+.bg-dark {
+  background-color: black;
+  color: white;
+}
+.bg-primary {
+  background-color: #f7c08a;
+  color: black;
+}
+.text-primary {
+  color: #f7c08a;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color:  #f7c08a;
+  color: black;
+}
+.btn-dark {
+  background-color: black;
+  color: white;
+}
+.btn-light {
+  background-color: white;
+  color: black;
+}
+.clr {
+  clear: both;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+header h1 {
+  float: left;
+  padding: 15px 0;
+}
+header nav {
+  float: right;
+}
+header nav ul li {
+  float: left;
+  list-style: none;
+}
+header nav ul li a {
+  display: block;
+  padding: 15px;
+  color: white;
+}
+header nav ul li a:hover,
+header nav ul li a.current {
+  color: #f7c08a;
+  background-color: #333;
+}
+
+#showcase {
+  height: 600px;
+  background-image: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  overflow: auto;
+  text-align: center;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  padding: 100px 0 40px;
+}
+#showcase p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#info .hotel-img {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background-image: url('../img/photo-1.jpg');
+}
+#info .hotel-info {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background-color: black;
+  text-align: center;
+  padding: 45px 15px 0;
+}
+#info .hotel-info p {
+  padding: 15px 0;
+  font-size: 1.1em;
+}
+
+footer p{
+  padding: 30px;
+  text-align: center;
+  overflow: auto;
+  font-size: 0.8em;
+}
+
+#features .box {
+  float: left;
+  width: 33.33%;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 30px;
+}
+#features .box h3 {
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+#features .box p {
+  text-align: justify;
+}
+
+#about {
+  padding: 20px;
+}
+#about h1 {
+  font-size: 2em;
+}
+#about p {
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+.about-left {
+  float: left;
+  width: 50%;
+}
+
+.about-right img {
+  display: block;
+  float: right;
+  width: 50%;
+  max-height: 300px;
+  border-radius: 50%;
+  padding: 20px 15px 0;
+}
+
+#opinions {
+  background-image: url("../img/test-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 70px 25px 25px;
+}
+
+#opinions h2 {
+  font-size: 2.5em;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.opinion {
+  margin: 20px 0;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.opinion img {
+  float: left;
+  width: 120px;
+  padding: 10px 10px 0;
+  border-radius: 50%;
+}
+
+.form {
+  padding: 15px 0;
+}
+.form h1 {
+  font-size: 40px;
+}
+.form p {
+  padding: 15px 0;
+}
+.form-group {
+  margin: 5px 0;
+}
+.form-group label {
+  display: block;
+}
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  border: 1px grey solid;
+  padding: 7px;
+}
