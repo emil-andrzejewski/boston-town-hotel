@@ -17,7 +17,7 @@ a {
   overflow: auto;
 }
 .bg-light {
-  background-color: white;
+  background-color: #ddd;
   color: black;
 }
 .bg-dark {
@@ -125,20 +125,16 @@ footer p{
   font-size: 0.8em;
 }
 
-#features .box {
+.box {
   float: left;
   width: 33.33%;
   font-size: 0.7em;
   text-align: center;
   padding: 30px;
 }
-#features .box h3 {
+.box h3 {
   font-size: 1.2em;
   padding: 15px;
-}
-
-#features .box p {
-  text-align: justify;
 }
 
 #about {
@@ -180,10 +176,12 @@ footer p{
 }
 .opinion {
   margin: 20px 0;
+  padding-bottom: 10px;
   border-radius: 10px;
   opacity: 0.8;
 }
 .opinion img {
+  display: block;
   float: left;
   width: 120px;
   padding: 10px 10px 0;
@@ -200,7 +198,7 @@ footer p{
   padding: 15px 0;
 }
 .form-group {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 .form-group label {
   display: block;
@@ -210,4 +208,9 @@ footer p{
   width: 100%;
   border: 1px grey solid;
   padding: 7px;
+}
+.form-group input:focus, 
+.form-group textarea:focus {
+  outline: none;
+  border: 1px  #f7c08a solid;
 }
